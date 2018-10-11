@@ -1,0 +1,82 @@
+/* CSS for new design */
+body {
+  background-image: url(./images/home-image.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-item {
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 0px 8px !important;
+}
+a {
+  text-decoration: none;
+  color: #fff !important;
+}
+.caption {
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-start {
+  position: relative;
+  padding: 12px 35px;
+  background: linear-gradient(0deg, #000, #262626);
+  color: #ffffff;
+  border: none;
+  font-size: 26px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-top: 5rem;
+}
+.button-start::before,
+.button-start::after {
+  content: " ";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 50px;
+  background: linear-gradient(
+    45deg,
+    #fce663,
+    #070302,
+    #ffee00,
+    #94941c,
+    #ffb600,
+    #f09933,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #fcbf43
+  );
+  background-size: 400%;
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+.button-start::after {
+  filter: blur(20px);
+}
+.button-start:hover {
+  background: linear-gradient(10deg, #874410, #f3a744, #874410);
+  cursor: pointer;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

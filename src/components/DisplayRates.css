@@ -1,0 +1,109 @@
+.price-card {
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+.box-header h1 {
+  font-weight: 300;
+  padding: 4px 12px;
+}
+.box-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+}
+.logo {
+  width: 30%;
+}
+.price {
+  width: 70%;
+}
+.price h1 {
+  margin-bottom: 0;
+}
+.card-foot {
+  background: #969090;
+  border-radius: 0 0 8px 8px;
+  padding: 4px;
+  text-align: center;
+}
+.card-foot p {
+  margin-bottom: 0;
+}
+.box-content img {
+  width: 75%;
+}
+ul {
+  list-style-type: none;
+  padding: 0 10px;
+}
+.chartjs-render-monitor {
+  height: 250px;
+}
+select {
+  margin: 8px 0;
+}
+ul li {
+  padding: 20px;
+}
+div.coin-details {
+  width: 100%;
+  max-width: 100%;
+}
+ul li span {
+  float: right;
+}
+.convert-body ul {
+  border: 2px solid grey;
+  border-radius: 14px;
+}
+.gdhgwg {
+  color: green;
+}
+
+select {
+  float: right;
+}
+oihdjfop {
+  width: 30px;
+}
+.coin-details ul li {
+  font-weight: 600;
+  font-size: 16px;
+}
+.display-option h1 {
+  font-size: 20px;
+}
+button {
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(2, 2, 51);
+}
+.header {
+  background: rgb(0, 0, 34);
+  color: #fff;
+}
+.convert-head h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.convert-head {
+  text-align: center;
+}
+.header h4 {
+  text-transform: uppercase;
+  padding: 12px;
+}
+.main {
+  background: ghostwhite;
+}
+.main h4 {
+  padding: 12px;
+}
+.convert-body {
+  padding: 16px;
+}
