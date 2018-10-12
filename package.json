@@ -2,7 +2,7 @@
   "name": "crypto-exchange",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nathmankind.github.io/crypto-convert",
+  "homepage": "https://nathmankind.github.io/crypto-convert/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "chart.js": "^2.7.2",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages-deploy",
     "eject": "react-scripts eject"
   }
 }
