@@ -13,7 +13,7 @@ body {
   padding: 0px 8px !important;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #fff !important;
 }
 .caption {
@@ -62,13 +62,15 @@ a {
   z-index: -1;
   animation: animate 20s linear infinite;
 }
-.button-start::after {
-  filter: blur(20px);
-}
 .button-start:hover {
   background: linear-gradient(10deg, #874410, #f3a744, #874410);
   cursor: pointer;
 }
+/* 
+.button-start::after {
+  filter: blur(20px);
+}
+
 @keyframes animate {
   0% {
     background-position: 0 0;
@@ -79,4 +81,4 @@ a {
   100% {
     background-position: 0 0;
   }
-}
+} */
